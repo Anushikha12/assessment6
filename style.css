@@ -1,0 +1,146 @@
+body {
+    background-color: rgba(0,0,0,0.6); 
+    /* background:linear-gradient(
+        to bottom,
+        black,
+        gray
+    ) */
+}
+.top-box {
+    background-color:white;
+    border:5px solid red;
+    box-shadow:5px 5px 2px purple;
+    border-radius: 10px;
+    color:rgb(117, 6, 52);
+    text-shadow:2px 3px 5px purple;
+    text-transform: uppercase;
+    font-size:22px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align:center;
+    padding:8px 20px;
+    margin:auto;
+    width:400px;
+    height:100px;
+}
+hr {
+    color:white;
+}
+.container-top {
+    border:5px solid green;
+}
+.bottom-box {
+    background-color:white;
+    border:10px solid red;
+    box-shadow:5px 5px 2px purple;
+    border-radius: 10px;
+    color:rgb(48,5,48);
+    text-shadow:2px 3px 5px rgb(48,5,48);
+    font-size:22px;
+    font-weight: bolder;
+    width:250px;
+    height:250px;
+
+}
+.capital, h1 {
+    text-transform: uppercase;
+}
+h1 {
+    font-size:25px;
+}
+.center {
+    text-align: center;
+}
+.box-2 {
+     position:absolute;
+     right:60px;
+     top:167px;
+}
+.box-3 {
+    margin-top:80px;
+    margin-bottom:20px;
+    padding-left:0px;
+}
+.box-4 {
+    position:absolute;
+    right:60px;
+    top:520px;
+    margin-bottom:20px;
+
+}
+img {
+    margin-top:30px;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    width:150px;
+    height:150px;
+}
+input {
+    width:90px;
+}
+button {
+    background-color:red;
+}
+.fixed {
+    background-color:lawngreen;
+    color:red;
+    font-style: italic;
+    border:8px solid red;
+    box-shadow:5px 5px 0px purple;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    width:450px;
+    height:50px;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:5px;
+    font-weight: 600;
+    margin:auto;
+    font-size:25px;
+    position:fixed;
+    top:450px;
+    left:550px;
+}
+.container-bottom {
+    border:10px solid purple;
+    background-color:darkgreen;
+    margin:auto;
+    width:930px;
+    margin-top:20px;
+}
+.full-box {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.list-box {
+    background-color:peru;
+    border:2px solid black;
+} 
+.other-box {
+    background-color:peru;
+    border:2px solid black;
+    margin-bottom: 10px;
+
+}
+.purple {
+    color:purple;
+}
+.italic {
+    font-style: italic;
+    font-size:20px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+h3 {
+    text-align:center;
+    font-weight:900;
+    font-style:italic;
+    font-size:22px;
+}
